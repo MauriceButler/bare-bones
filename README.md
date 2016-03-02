@@ -1,2 +1,3 @@
 # bare-bones
-basic crud server example
+
+Basic crud server example for demo purposes

@@ -1,0 +1,39 @@
+{
+  "name": "bare-bones",
+  "version": "1.0.0",
+  "description": "basic crud server example",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/unit",
+    "prepush": "jshint . && npm test",
+    "start": "node ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauriceButler/bare-bones.git"
+  },
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/bare-bones/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/bare-bones#readme",
+  "devDependencies": {
+    "husky": "^0.11.3",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.7.1",
+    "generic-callback": "^2.0.1",
+    "kgo": "^4.0.1",
+    "mysql": "^2.10.2",
+    "request-data": "^1.2.0",
+    "retort-json": "^1.0.3",
+    "rooty": "^2.0.0",
+    "sea-lion": "^1.0.5",
+    "sequelize": "^3.19.3",
+    "sequelize-cps": "^1.0.8",
+    "simple-cors": "^1.1.1",
+    "wraperr": "^1.0.1"
+  }
+}
